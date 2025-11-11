@@ -1,8 +1,9 @@
 import java.util.Scanner;
 class Activity3 {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    int day = sc.nextInt();
+    Scanner c = new Scanner(System.in);
+    System.out.println("Enter a number:");
+    int day = c.nextInt();
     
     switch(day) {
       case 1 :
