@@ -1,21 +1,16 @@
-import java.util.Scanner;
-
-class Main {
+class Main{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your marks:");
-        int marks = sc.nextInt();
+        boolean sunny = true;
+        boolean hot = false;
 
-        if (marks > 90) {
-            System.out.println("O");
-        } else if (marks > 80 && marks <= 90) {
-            System.out.println("A+");
-        } else if (marks > 70 && marks <= 80) {
-            System.out.println("A");
-        } else if (marks > 60 && marks <= 70) {
-            System.out.println("B");
-        } else {
-            System.out.println("C");
-        }
+        if(sunny){
+            if(hot){
+                System.out.println("Use cap and sunscreen");
+            }else{
+                System.out.println("Use sunscreen");
+            }
+             }else{
+                System.out.println("Take Rain-Coat for safety");
+            }
     }
 }
